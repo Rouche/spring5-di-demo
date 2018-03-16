@@ -1,6 +1,6 @@
-package guru.springframework.controllers;
+package com.resolutech.controllers;
 
-import guru.springframework.services.GreetingServiceImpl;
+import com.resolutech.services.GreetingService;
 
 
 /**
@@ -9,7 +9,7 @@ import guru.springframework.services.GreetingServiceImpl;
 
 public class PropertyInjectedController {
 
-    public GreetingServiceImpl greetingService;
+    public GreetingService greetingService;
 
     public String sayHello(){
         return greetingService.sayGreeting();

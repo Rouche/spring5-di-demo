@@ -1,6 +1,6 @@
-package guru.springframework.controllers;
+package com.resolutech.controllers;
 
-import guru.springframework.services.GreetingServiceImpl;
+import com.resolutech.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package guru.springframework.controllers;
+package com.resolutech.controllers;
 
 import org.springframework.stereotype.Controller;
 

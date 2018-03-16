@@ -1,7 +1,6 @@
-package guru.springframework.controllers;
+package com.resolutech.controllers;
 
-import guru.springframework.services.GreetingService;
-import guru.springframework.services.GreetingServiceImpl;
+import com.resolutech.services.GreetingService;
 
 /**
  * Created by jt on 5/24/17.

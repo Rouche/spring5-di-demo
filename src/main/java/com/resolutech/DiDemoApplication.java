@@ -1,6 +1,6 @@
-package guru.springframework;
+package com.resolutech;
 
-import guru.springframework.controllers.MyController;
+import com.resolutech.controllers.MyController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
