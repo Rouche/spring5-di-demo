@@ -1,4 +1,4 @@
-package guru.springframework.constrollers;
+package com.resolutech.constrollers;
 
 import org.springframework.stereotype.Controller;
 
