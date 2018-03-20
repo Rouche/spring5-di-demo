@@ -1,6 +1,6 @@
 package com.resolutech.controllers;
 
-import guru.services.GreetingServiceImpl;
+import com.resolutech.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

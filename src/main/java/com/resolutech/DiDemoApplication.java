@@ -10,7 +10,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"guru.services", "com.resolutech"})
+@ComponentScan(basePackages = {"com.resolutech"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {

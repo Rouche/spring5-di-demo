@@ -1,5 +1,6 @@
-package guru.services;
+package com.resolutech.services;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,6 +1,6 @@
 package com.resolutech.controllers;
 
-import guru.services.GreetingService;
+import com.resolutech.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 /**

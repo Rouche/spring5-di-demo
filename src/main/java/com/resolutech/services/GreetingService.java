@@ -1,4 +1,4 @@
-package guru.services;
+package com.resolutech.services;
 
 /**
  * Created by jt on 5/24/17.

@@ -1,4 +1,4 @@
-package guru.services;
+package com.resolutech.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
@@ -7,10 +7,13 @@ import org.springframework.stereotype.Service;
 /**
  * Created by jt on 5/24/17.
  */
-@Service
-@Profile("fr")
-@Primary
 public class PrimaryFrenchGreetingService implements GreetingService {
+
+    private GreetingRepository greetingRepository;
+
+    public PrimaryFrenchGreetingService(GreetingRepository greetingRepository) {
+        this.greetingRepository = greetingRepository;
+    }
 
     @Override
     public String sayGreeting() {

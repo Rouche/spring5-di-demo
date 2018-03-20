@@ -1,4 +1,4 @@
-package guru.services;
+package com.resolutech.services;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.context.annotation.Primary;
@@ -8,10 +8,13 @@ import org.springframework.stereotype.Service;
 /**
  * Created by jt on 5/24/17.
  */
-@Service
-@Primary
-@Profile({"en", "default"})
 public class PrimaryGreetingService implements GreetingService, DisposableBean {
+
+    private GreetingRepository greetingRepository;
+
+    public PrimaryGreetingService(GreetingRepository greetingRepository) {
+        this.greetingRepository = greetingRepository;
+    }
 
     @Override
     public String sayGreeting() {
