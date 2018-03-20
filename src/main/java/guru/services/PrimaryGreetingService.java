@@ -1,4 +1,4 @@
-package com.resolutech.services;
+package guru.services;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.context.annotation.Primary;
@@ -20,6 +20,6 @@ public class PrimaryGreetingService implements GreetingService, DisposableBean {
 
     @Override
     public void destroy() throws Exception {
-
+        System.out.println("im destroyed! " + this.getClass().getName());
     }
 }
