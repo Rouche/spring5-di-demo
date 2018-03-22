@@ -1,0 +1,33 @@
+# This is a comment
+
+name: Bob
+
+nameList: #Comment
+    - Joe
+    - Rin
+    - Fret
+
+poundSign: "#"
+
+book:
+    author: juke
+    poublisher: my house
+
+thruth: yes
+another_true: true
+myTrue: True
+
+false: no #FALSE, false, No
+
+string_val: "With it's quote"
+
+escape_colon: "My colon: right"
+
+include_eol: |
+    wergwrewrg wergwre
+    wegewg gwergw  ge
+    werg
+
+dont_include_eol: >
+    45 wergwer
+    werg gweg g

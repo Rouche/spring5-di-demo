@@ -1,0 +1,15 @@
+resolutech:
+  jms:
+    username: joe
+    password: qwerty
+    jmsurl: 4533654
+
+--- #this is like a new file
+
+#This will override in that profile only
+spring:
+  profiles: es
+
+resolutech:
+  jms:
+    username: YAMLuser
