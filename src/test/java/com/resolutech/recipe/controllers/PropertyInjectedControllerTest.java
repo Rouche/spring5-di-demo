@@ -1,4 +1,4 @@
-package com.resolutech.controllers;
+package com.resolutech.recipe.controllers;
 
 import com.resolutech.services.GreetingServiceImpl;
 import org.junit.Before;

@@ -1,6 +1,6 @@
 package com.resolutech;
 
-import com.resolutech.controllers.MyController;
+import com.resolutech.recipe.controllers.MyController;
 import com.resolutech.examplebeans.FakeDataSource;
 import com.resolutech.examplebeans.FakeJmsBroker;
 import org.springframework.boot.SpringApplication;

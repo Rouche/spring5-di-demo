@@ -1,4 +1,4 @@
-package com.resolutech.controllers;
+package com.resolutech.recipe.controllers;
 
 import com.resolutech.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
