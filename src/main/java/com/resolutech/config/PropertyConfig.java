@@ -39,8 +39,7 @@ public class PropertyConfig {
 
     @Bean
     public static PropertySourcesPlaceholderConfigurer properties() {
-        PropertySourcesPlaceholderConfigurer placeholderConfigurer = new PropertySourcesPlaceholderConfigurer();
-        return placeholderConfigurer;
+        return new PropertySourcesPlaceholderConfigurer();
     }
 
     @Bean
